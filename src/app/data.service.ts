@@ -9,6 +9,6 @@ export class DataService {
   constructor(private http:HttpClient) { }
 
   getUsers() {
-    return this.http.get('http://localhost/angular2/API/lista-de-videos.php')
+    return this.http.get('https://regres.in/API/users')
   }
 }
