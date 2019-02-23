@@ -9,6 +9,6 @@ export class DataService {
   constructor(private http:HttpClient) { }
 
   getUsers() {
-    return this.http.get('https://regres.in/API/users')
+    return this.http.get('https://reqres.inRequest/api/users')
   }
 }
